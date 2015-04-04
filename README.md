@@ -7,3 +7,10 @@ Purpose: Submission for Project 1: Movie Trailer Website
 
 Date: 4th April 2015
 
+### Extra Functionality:
+
+Shows Ratings for movies
+colored according to movie rating
+* G - Green
+* PG-13 - Black
+* R - Red
