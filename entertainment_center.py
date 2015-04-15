@@ -1,7 +1,9 @@
 import fresh_tomatoes
 import media
 
-#instantiate movie objects
+
+# instantiate movie objects
+
 toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc&hl=en-GB&gl=SG",
@@ -16,7 +18,7 @@ avatar = media.Movie("Avatar",
 school_of_rock = media.Movie("School of Rock", "Storyline",
                              "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
                              "https://www.youtube.com/watch?v=XCwy6lW5Ixc&gl=SG&hl=en-GB",
-                             "PG-13" );
+                             "PG-13" )
 
 ratatouille = media.Movie("Ratatouille", "Storyline",
                           "http://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
@@ -33,9 +35,13 @@ hunger_games = media.Movie("Hunger Games", "Storyline",
                            "https://www.youtube.com/watch?v=4S9a5V9ODuY",
                            "PG-13")
 
-#initialize array with movie objects
+
+# initialize array with movie objects
+
 movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
 
-#call open_movies_page with the movies array as a parameter
+
+# call open_movies_page with the movies array as a parameter
+
 fresh_tomatoes.open_movies_page(movies)
 
