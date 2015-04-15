@@ -14,3 +14,9 @@ colored according to movie rating
 * G - Green
 * PG-13 - Black
 * R - Red
+
+### Requirements
+* Python 2.7.9
+
+### Execution
+* Run entertainment_center.py
